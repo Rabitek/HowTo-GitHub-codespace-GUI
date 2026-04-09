@@ -1,12 +1,15 @@
-
 #include <iostream>
+#include <array>
 
 int main()
-{ // wwwwwwwwwwwwwwwwwwwwwwwwwww
+{
+    std::string vypis, text2;
+    int pole[5];
+    int foo, bar, x, vypocet;
 
-   int a;
-   a = 56;
-   std::cout << a << std::endl;
+    std::string otazka, jmeno;
+    int odpovedi[5];
+    int i, j, skore, celkoveSkore;
 
-   return 0;
+    return 0;
 }
