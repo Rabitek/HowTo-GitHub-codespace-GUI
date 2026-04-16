@@ -1,15 +1,16 @@
 #include <iostream>
-#include <array>
+#include <string>
+
+double calculateRectangleArea(double width, double height)
+{
+    double area = width * height;
+    return area;
+}
+
 
 int main()
 {
-    std::string vypis, text2;
-    int pole[5];
-    int foo, bar, x, vypocet;
-
-    std::string otazka, jmeno;
-    int odpovedi[5];
-    int i, j, skore, celkoveSkore;
+  std::cout << "Rectangle area is: " << calculateRectangleArea(10, 20) << " cm^2" << std::endl;
 
     return 0;
 }
